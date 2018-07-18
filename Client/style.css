@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css?family=Karla');
+
+* {
+  box-sizing: border-box;
+}
+
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border-radius: 12px;
+  float: left;
+  width: 150%;
+  border-color: black;
+  background-color: white;
+  font-family: 'Karla', sans-serif;
+}
+
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #ffffff;
+  color: black;
+  font-size: 17px;
+  border-radius: 12px;
+  cursor: pointer;
+  border: none;
+} 
+
+.fa fa-caret-right{
+  color: #ffffff;
+  size: 10px;
+}
+
+/*form.example button: hover {
+  background: #0b7dda;
+  border-radius: 12px;
+}*/
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+} 
+
+#listings{
+    border-color: black;
+    background-color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Karla', sans-serif;
+    border-radius: 12px;
+    position: absolute;
+    margin-top: 250px;
+
+} 
+
+#companies{
+  border-color: black;
+    background-color: white;
+    padding: 14px 28px; 
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Karla', sans-serif;
+    border-radius: 12px;
+    position: absolute;
+    margin-top: 340px;
+}
+
+#search{
+  border-radius: 12px;
+  border-color: black;
+    background-color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+
+} 
+
+
+
+/*#column1{
+	 float: left;
+    width: 50%;
+}
+
+#column2{
+	 float: right;
+    width: 80%;
+    padding-top: 270px;
+
+} */
+
+#column4{
+  background: #ffffff;
+  color: black;
+} 
+
+#submit{
+  size: 30px;
+  height: 20px;
+  padding-top: 10px;
+  width: 20px;
+  font-size: 40px;
+}
+
+#submit_button{
+  border: none;
+  position: absolute;
+  margin-top: 340px;
+}  
+
+#submit2{
+   size: 30px;
+  height: 20px;
+  padding-top: 10px;
+  width: 20px;
+  font-size: 40px;
+  position: absolute;
+  margin-top: 230px; 
+
+}
+
+#submit_button2{
+  border: none;
+}
+
+#homebutton{
+  border-color: #ffffff;
+    background-color: #ffffff;
+    /*padding: 14px 28px;*/*/
+    display: inline-block;
+    font-family: 'Karla', sans-serif;
+    margin-top: 20px; 
+    color:#000; 
+     margin-left: 25px;
+} 
+
+
+/*#homebutton:hover { 
+    background-color: black;
+    color: black;
+}*/
+
+.button{
+  border-color: #ffffff;
+    background-color: #ffffff;
+} 
+
+button:link{
+  color:#000;
+}
+
+#landing_title{
+	font-style: bold;
+	font-size: 80px;
+	font-family: 'Karla', sans-serif;
+	padding-top: 250px;
+  margin-left: 200px;
+
+}
+
+
+#landing_title_2{
+	font-style: normal;
+	font-size: 36px;
+	text-align: center;
+	font-family: 'Karla', sans-serif;
+	word-spacing: 41px;
+  margin-left: 200px;
+  position: absolute;
+ 
+}
+
+#landing_title_2ndpage{
+  font-style: bold;
+  font-size: 35px;
+  font-family: 'Karla', sans-serif;
+  
+}
+
+
+#landing_title_2_2ndpage{
+  font-style: normal;
+  font-size: 15px;
+  font-family: 'Karla', sans-serif;
+  position: relative;
+  word-spacing: 23px;
+ 
+  
+}
+
+#search2{
+  border-radius: 12px;
+  border-color: black;
+    background-color: white;
+   padding: 20px;
+   width: 70%;
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    margin-top: 115px;
+
+}  
+
+#search3{
+  border-radius: 12px;
+  border-color: black;
+    background-color: white;
+   padding: 20px;
+   width: 70%;
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    margin-top: 115px;
+}
+
+
+
+#results{
+  font-style: normal;
+  font-size: 18px;
+  font-family: 'Karla', sans-serif;
+  position: relative;
+  margin-top: 40px;
+  margin-left: 25px;
+}
+
+#line1 { 
+    display: block;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 1px;
+    color: black;
+    margin-top: 80px;
+} 
+
+p{
+   font-family: 'Karla', sans-serif;
+   font-size: 18px;
+   padding: 25px;
+} 
+
+#card1{
+  padding: 25px;
+  margin-left: 25px;
+  margin-top: 25px;
+}
+
+
+#company_name{
+  font-style: normal;
+  font-size: 25px;
+  font-family: 'Karla', sans-serif;
+  position: relative;
+  padding: 25px;
+} 
+
+#logo_url{
+  height: 50%;
+  width: 50%;
+  padding: 10px;
+} 
+
+#position_card{
+  padding: 25px;
+  margin-left: 25px;
+  margin-top: 25px;
+} 
+
+#position{
+  font-style: normal;
+  font-size: 25px;
+  font-family: 'Karla', sans-serif;
+  position: relative;
+  padding: 25px;
+} 
+
+#applylink{
+  font-style: normal;
+  font-size: 25px;
+  font-family: 'Karla', sans-serif;
+  position: relative;
+  padding: 25px;
+} 
+
+#dropdownMenuButton{
+  border-radius: 12px;
+  border-color: black;
+    background-color: white;
+    color: black;
+   padding: 20px;
+   width: 100%;
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    margin-top: 115px; 
+
+}
+
+
+
+
+
